@@ -55,6 +55,14 @@ body {
   transform: rotateY(180deg) translateX(-334px);
 }
 
+.discover .credit-card--front {
+  background-image: url('./images/cc__discover--front.png');
+}
+
+.discover .credit-card--back {
+  background-image: url('./images/cc__discover--back.png');
+}
+
 .visa .credit-card--front {
   background-image: url('./images/cc__visa--front.png')
 }
@@ -69,14 +77,6 @@ body {
 
 .mastercard .credit-card--back {
   background-image: url('./images/cc__mastercard--back.png');
-}
-
-.discover .credit-card--front {
-  background-image: url('./images/cc__discover--front.png');
-}
-
-.discover .credit-card--back {
-  background-image: url('./images/cc__discover--back.png');
 }
 
 .american .credit-card--front {
